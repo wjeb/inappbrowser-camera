@@ -94,10 +94,10 @@ import java.util.List;
 import java.util.HashMap;
 import java.util.StringTokenizer;
 
-private String mCM;
-
 @SuppressLint("SetJavaScriptEnabled")
 public class InAppBrowser extends CordovaPlugin {
+	
+	private String mCM;
 
     private static final String NULL = "null";
     protected static final String LOG_TAG = "InAppBrowser";
